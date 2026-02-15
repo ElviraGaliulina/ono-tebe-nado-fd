@@ -8,8 +8,9 @@
 }
 
 .header__logo {
-    width: 148px;
-    height: 105px;
+    width: 139px;
+    height: 102px;
+    padding-left: 4px;
 }
 
 .header__menu {
@@ -18,13 +19,13 @@
 
 .header__links-list {
     display: flex;
-    gap: 27px;
+    gap: 30px;
     text-transform: lowercase;
 }
 
 .header__links-list-item {
     list-style: circle;
-    padding-left: 5px;
+    padding-left: 3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -48,8 +49,88 @@
 .header__address {
     width: 240px;
     margin-left: 184px;
+    font-size: 19px;
 }
 
 .address__link {
     text-decoration: underline;
+}
+
+.cover {
+    position: relative;
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.cover__title {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 30px;
+    line-height: 135px;
+    padding-top: 155px;
+    padding-left: 45px;
+    padding-right: 30px;
+
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    opacity: 60%;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.cover__description {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 110px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cover__description-text {
+    word-spacing: 19.8px;
+    font-size: 22px;
+}
+
+.bet-button{
+    width: 256px;
+    height: 51px;
+    font-family: "Raleway", sans-serif;
+    font-style: medium;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+
 }
