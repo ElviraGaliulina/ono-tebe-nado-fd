@@ -154,6 +154,10 @@
 }
 
 .lots__card-list { 
+    display: flex;
+    justify-self: start;
+    gap: 30px;
+    flex-direction: row;
 }
 
 .lots__card-list-item {
