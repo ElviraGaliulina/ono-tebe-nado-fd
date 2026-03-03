@@ -251,3 +251,120 @@
 }
 
 /* бонусом не работат justify-content: flex-end для карточек, не получается перенести контент вниз карточки */
+
+.about {
+    display: grid;
+    width: 1052px;
+    height: 595px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+
+.about__column {
+    width: 240px;
+    height: 240px;
+}
+
+.about__column_text {
+    width: 693px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__logo {
+    background-color: black;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    align-content: center;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+    margin-left: 46.48px;
+}
+
+.about__title {
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    width: 291px;
+    height: 47px;
+    margin-bottom: 100px;
+}
+
+.about__text {
+left: 0px;
+top: 294px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+
+
+}
+/* полная шляпа с секцией about, не исправляется расположение колонки с текстом. Пачиму....*/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    height: 180px;
+    margin-top: 180px;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    margin-left: 50px;
+    width: 264.57px;
+    height: 98px;
+}
+
+.footer__menu {
+    text-transform: lowercase;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.footer__menu-list {
+    list-style: none;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    width: 240px;
+    height: 48px;
+    
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 177.5px;
+    gap: 48px;
+    margin-right: 50px;
+}
+
+.footer__social-icon {
+    height: 48px;
+    width: 48px;
+}
