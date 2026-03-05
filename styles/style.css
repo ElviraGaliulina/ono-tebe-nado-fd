@@ -169,6 +169,7 @@
 }
 
 .card {
+    display: flex;
     position: relative;
     width: 334px;
     height: 596px;
@@ -193,7 +194,8 @@
 }
 
 .card__text {
-    height: 100%;
+    display: flex;
+    justify-content: flex-end;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -201,6 +203,7 @@
     line-height: 120%;
     margin-left: 40px;
     margin-right: 40px;
+    padding-bottom: 48px;
 }
 
 
@@ -238,7 +241,7 @@
 }
 
 .lots__look-more-link {
-    /*margin-top по какой-то причине не работает, надо поправить */
+    display: block;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 2px;
@@ -270,6 +273,8 @@
 }
 
 .about__column_text {
+    margin-left: 24px;
+    margin-right: 24px;
     width: 693px;
     height: 449px;
     display: flex;
@@ -291,6 +296,8 @@
 }
 
 .about__title {
+    margin-top: 136px;
+    text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-style: bold;
     font-weight: 700;
@@ -298,6 +305,10 @@
     width: 291px;
     height: 47px;
     margin-bottom: 100px;
+}
+
+.extension__class {
+    margin-bottom: 24px;
 }
 
 .about__text {
