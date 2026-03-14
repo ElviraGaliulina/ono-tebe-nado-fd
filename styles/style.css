@@ -51,6 +51,8 @@
     margin-left: 189px;
     font-size: 19px;
     margin-bottom: 5px;
+    margin-top: 10px;
+    line-height: 24.7px;
 }
 
 .address__link {
@@ -119,7 +121,7 @@
 }
 
 .cover__description-text {
-    word-spacing: 19.9px;
+    word-spacing: 18.5px;
     font-size: 22px;
 }
 
@@ -258,9 +260,6 @@
     line-height: 100%;
     font-style: normal;
 }
-
-/* бонусом не работат justify-content: flex-end для карточек, не получается перенести контент вниз карточки */
-
 .about {
     display: grid;
     width: 1052px;
@@ -344,7 +343,6 @@ color: #000000;
 
 
 }
-/* полная шляпа с секцией about, не исправляется расположение колонки с текстом. Пачиму....*/
 
 footer {
     display: grid;
@@ -364,6 +362,7 @@ footer {
     width: 264.57px;
     height: 98px;
     margin-bottom: 70px;
+    line-height: 24.4px;
 }
 
 .footer__menu {
