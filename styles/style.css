@@ -67,10 +67,11 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -2;
+    z-index: 0;
 }
 
 .cover__title {
+    position: relative;
     font-family: "Raleway", 'Arial', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -82,7 +83,7 @@
     padding-top: 155px;
     padding-left: 45px;
     padding-right: 22px;
-    z-index: 0;
+    z-index: 2;
 
 }
 
@@ -109,12 +110,13 @@
     left: 0;
     background-color: black;
     opacity: 60%;
-    z-index: -1;
+    z-index: 1;
     height: 100%;
     width: 100%;
 }
 
 .cover__description {
+    position: relative;
     display: flex;
     align-items: center;
     color: white;
@@ -123,7 +125,7 @@
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    z-index: 0;
+    z-index: 2;
 }
 
 .cover__description-text {
@@ -193,6 +195,8 @@
 }
 
 .card__title {
+    position: relative;
+    z-index: 2;
     text-transform: uppercase;
     text-decoration: underline;
     font-family: "Raleway", 'Arial', sans-serif;
@@ -209,6 +213,8 @@
 }
 
 .card__text {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: flex-end;
     font-family: "Raleway",'Arial', sans-serif;
@@ -229,7 +235,7 @@
      height: 100%;
      background-repeat: no-repeat;
      background-size: cover;
-     z-index: -2;
+     z-index: 0;
      background-position: center;
 }
 
